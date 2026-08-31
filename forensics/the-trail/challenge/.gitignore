@@ -1,0 +1,4 @@
+# The challenge ships aurora-config-repo.tar.gz ONLY.
+# Never commit the extracted repo - a live git tree loses the dangling
+# commit when pushed to GitHub, breaking stage 4.
+aurora-config/
