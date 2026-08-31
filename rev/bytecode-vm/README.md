@@ -1,4 +1,4 @@
-# Aurora License — Reverse Engineering (Hard)
+# Bytecode VM — Reverse Engineering (Hard)
 
 > Our licensing check is bulletproof. It runs your key through our
 > proprietary virtual machine. Good luck forging one.

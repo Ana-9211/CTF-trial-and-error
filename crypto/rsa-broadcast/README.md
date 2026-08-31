@@ -1,4 +1,4 @@
-# Related Secrets — Crypto (Medium)
+# RSA Broadcast — Crypto (Medium)
 
 > We send the same secret out twice, just... slightly offset. What's the harm?
 

@@ -1,4 +1,4 @@
-# DocuRender — Web / SSRF (Medium)
+# SSRF / DocuRender — Web (Medium)
 
 > Paste a URL, get a PDF. What could go wrong?
 

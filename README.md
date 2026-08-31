@@ -16,10 +16,10 @@ enough to construct it from scratch.
 
 | Category | Name | Vulnerability | Difficulty | Status |
 |---|---|---|---|---|
-| Web | [DocuRender](web/ssrf/) | SSRF — blocklist bypass via numeric IP encoding | Medium | ✅ |
-| Crypto | RSA Broadcast | Franklin-Reiter related-message attack | Medium | 🚧 |
-| Forensics | The Trail | 4-stage chain: whitespace stego → DNS tunneling → memory forensics → git history | Easy → Hard | 🚧 |
-| Rev | Custom VM | Reverse a bespoke bytecode VM, solve via symbolic execution | Hard | 🚧 |
+| Web | [SSRF / DocuRender](web/ssrf/) | SSRF — blocklist bypass via numeric IP encoding | Medium | ✅ |
+| Crypto | [RSA Broadcast](crypto/rsa-broadcast/) | Franklin-Reiter related-message attack | Medium | ✅ |
+| Forensics | [The Trail](forensics/the-trail/) | 4-stage chain: whitespace stego → DNS tunneling → memory forensics → git history | Easy → Hard | ✅ |
+| Rev | [Bytecode VM](rev/bytecode-vm/) | Reverse a bespoke bytecode VM, solve via symbolic execution | Hard | ✅ |
 
 ## Structure
 
