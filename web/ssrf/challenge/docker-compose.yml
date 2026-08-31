@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  web:
+    build: ./web
+    ports:
+      - "5000:5000"
+    networks:
+      ssrf-net:
+    depends_on:
+      - metadata
+
+  metadata:
+    build: ./metadata
+    networks:
+      ssrf-net:
+        ipv4_address: 169.254.169.254
+
+networks:
+  ssrf-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 169.254.0.0/16
